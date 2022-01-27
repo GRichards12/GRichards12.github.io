@@ -1,0 +1,89 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300&display=swap');
+ body{ 
+    margin: 0px;
+ }
+@keyframes example {
+    from {color: rgb(0, 255, 55);}
+  to {color: yellow;}
+}
+/* This is how to target ALL of your HTML */
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Source Serif 4', sans-serif;
+    justify-items: center;
+    background-color: white;
+}
+h2 {
+    font-family: 'Source Serif 4', sans-serif;
+    color:black;
+    background-color: white;
+    
+}
+h3 {
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: large;
+    background-color: white;
+    animation-name: example;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+h4{
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: medium;
+    background-color: white;
+    color:black;
+}
+p{
+    background-color: none;
+    color:white;
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+/* This is how to target a class */
+
+
+
+.cover{
+    height: 200px;
+    width: 200px;
+    display:flex;
+
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+/* # for ID not ., use id= not class= */
+/* margin=0px to negate margin*/
+/*boxsizing=x for border boxes*/
+body{
+    background-color: rgb(75, 75, 75);
+}
+
+#navbar{
+    background-color:gray;
+    width:100%;
+    height:50px;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: space-around;
+}
+
+#navbar a {
+    color: white;
+    text-decoration:underline;
+    font-size: 20px;
+    justify-content:space-between;
+    font-family: 'Source Serif 4', sans-serif;
+}
+/* a = anchor tags(focus links) */
+
+#navbar a:hover {
+    color:orange;
+}
